@@ -2,6 +2,7 @@
   "name": "personal",
   "private": true,
   "version": "1.0.0",
+  "packageManager": "yarn@4.5.0",
   "description": "A shortcut to me.",
   "main": "index.js",
   "scripts": {
