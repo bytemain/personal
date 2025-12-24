@@ -43,7 +43,8 @@ app.get('/wx', async (ctx) => {
 });
 app.get('/keys', async (c) => await fetch(`${c.env.GITHUB}.keys`));
 app.get('/keys.sh', (c) => {
-  const data = keys.replace(/{{HOST}}/g, c.env.HOST);
+  const url = new URL(c.req.url);
+  const data = keys.replace(/{{HOST}}/g, url.host);
   return new Response(data);
 });
 app.get('/gpg', async (c) => await fetch(`${c.env.GITHUB}.gpg`));
