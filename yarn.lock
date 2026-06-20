@@ -1662,10 +1662,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hono@npm:^3.11.7":
-  version: 3.12.12
-  resolution: "hono@npm:3.12.12"
-  checksum: 10c0/93b77d51c24f1b60d61dbd0790b0a3a7481a762dbf25cc2d2598938b97ffd4f8f0c26f51964060099c0d358f1aea409877b71623b1744b3c049922b6db84f4da
+"hono@npm:^4.12.25":
+  version: 4.12.25
+  resolution: "hono@npm:4.12.25"
+  checksum: 10c0/9216d647fe2f39b17855b0e74913688b837e3fa9519d367c7beeec399265b36608a820928cc33ab926eee58fe2daf7e33296235b52e56dbfac0fbcd51a5e818e
   languageName: node
   linkType: hard
 
@@ -2411,7 +2411,7 @@ __metadata:
     "@types/xml2js": "npm:^0.4.9"
     dotenv: "npm:^16.3.1"
     esbuild: "npm:^0.19.2"
-    hono: "npm:^3.11.7"
+    hono: "npm:^4.12.25"
     minimist: "npm:^1.2.6"
     npm-run-all: "npm:^4.1.5"
     typescript: "npm:^4.3.5"
